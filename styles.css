@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section {
+    background: hsl(217, 54%, 11%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    padding: 25px;
+}
+
+.card {
+    background: hsl(216, 50%, 16%);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 15px;
+    height: 100%;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-description {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+.card-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.card-days {
+    color: hsl(215, 51%, 70%);
+}
+
+.card-creator {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-creator img {
+    height: 40px;
+    margin-right: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.card-creator p {
+    color: hsl(215, 51%, 70%);
+}
+
+.card-creator p span {
+    color: white;
+    font-weight: 300;
+}
+
+.hr {
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.card-icon {
+    margin-right: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 500px;
+        margin: auto;
+    }
+}
